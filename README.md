@@ -199,7 +199,7 @@ I mapped and enabled all the USB ports using (https://github.com/usbtoolbox/tool
 ## 🛠️ Other tweaks
 
 <details>  
-<summary><strong>Enable HiDPI</strong></summary>
+<summary><strong>🖥️ Enable HiDPI</strong></summary>
 </br>
 
 1. [Disable SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
@@ -277,7 +277,7 @@ After this is done, just reboot your machine. After it is up and running again, 
 </details>
 
 <details>  
-<summary><strong>Boot process tweaks</strong></summary>
+<summary><strong>⚙️ Boot process tweaks</strong></summary>
 </br>
 
 | Menu |       |            | Setting    | What does it do?     |

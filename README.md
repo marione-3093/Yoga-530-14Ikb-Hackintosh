@@ -144,7 +144,7 @@ DeviceProperties
 | Key                        | Type       | Value        |
 | -------------------------- | ---------- | ------------ |
 | PciRoot(0x0)/Pci(0x1F,0x3) | Dictionary |              |
-| layout-id                  | Data       | **0f000000** |
+| layout-id                  | Data       | **0d000000** |
 
 </details>
 
@@ -152,10 +152,10 @@ DeviceProperties
 <summary><strong>Enable Intel WLAN cards</strong></summary>
 </br>
 
-Although the Intel AC-8265 Card is compatible with both kexts (use either one or the other), there are Pros and Cons to both of them (check the [**FAQs**](https://openintelwireless.github.io/itlwm/FAQ.html#features) for other differences):
+Although the Intel AC-3165 Card is compatible with both kexts (use either one or the other), there are Pros and Cons to both of them (check the [**FAQs**](https://openintelwireless.github.io/itlwm/FAQ.html#features) for other differences):
 
 > [!IMPORTANT]
-> **WiFi Kext Compatibility**: The included `AirportItlwm.kext` is specifically for **macOS Sequoia**.  
+> **WiFi Kext Compatibility**: The included `AirportItlwm.kext` is specifically for **macOS Sequoia and Tahoe**.  
 > If you plan to install **macOS Sonoma**, you **MUST** replace this kext with the version compiled for Sonoma. Using the wrong version will result in boot failures or non-functional WiFi.
 
 - **AirportItlwm**: (used in macOS Sonoma)
@@ -178,7 +178,7 @@ Although the Intel AC-8265 Card is compatible with both kexts (use either one or
 
 > **🗒️Note:**
 > 
-> My config uses `AirportItlw.kext` by default since it allows accessing the internet during macOS installation (unlike `itlwm.kext` which requires an additional app to do so). Currently, AirportItlwm kexts for macOS Sequoia is included but you must patch using [OCLP-Mod](https://github.com/laobamac/OCLP-Mod/releases). If you want to use itlwm, disable AirportItlwm (all variants) and enable itlwm in the config.plist instead. Next, download the Helipad app, run it and add it to "Login Items" (in System Settings) so that it starts automatically with macOS.
+> My config uses `AirportItlwm.kext` by default since it allows accessing the internet during macOS installation (unlike `itlwm.kext` which requires an additional app to do so). Currently, AirportItlwm kexts for macOS Sequoia is included but you must patch using (https://youtu.be/C_wa3tQzWt8?si=QljfTeTbMhlmHEn6). If you want to use itlwm, disable AirportItlwm (all variants) and enable itlwm in the config.plist instead. Next, download the Heliport app, run it and add it to "Login Items" (in System Settings) so that it starts automatically with macOS.
 
 </details>
 
@@ -186,14 +186,14 @@ Although the Intel AC-8265 Card is compatible with both kexts (use either one or
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
 
-Generate `CPUFriendDataProvider` or `ssdt_data.aml` (choose one) for your machine [here](https://github.com/acidanthera/CPUFriend) or use the ssd_data.aml file provided. My files are set for power conservation over performance. Highly recommended that you use power management.
+Generate `CPUFriendDataProvider` or `ssdt_data.aml` (choose one) for your machine [here](https://github.com/acidanthera/CPUFriend) or use my stable configuration provided. My files are set for power conservation over performance. Highly recommended that you use power management.
 
 </details>
 
 <details> 
-<summary><strong>USB Port Mapping</strong></summary>
+<summary><strong>USB Ports</strong></summary>
 
-While first port mapping I followed the [Dortania guide here](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit) with USBInjectAll.kext install...  when doing so the internal USB ports did not show up and the cameras, touch screen, and bluetooth did not function. I noticed on the `USBmap tool` screen that RHUB was showing so I Googled it and it brought me back to the [Dortania guide here](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html#special-notes). I added the SSDT-RHUB.aml to the APCI folder rebooted and all the ports showed up. I then mapped the USB ports creating the included USBMap.kext file.
+I mapped and enabled all the USB ports using (https://github.com/usbtoolbox/tool)
 
 </details> 
 
@@ -236,21 +236,6 @@ Super useful shortcut that I wish I had it on my previous MBP. Default is `⌘�
 1. Go under `Keyboard > Shortcuts > Screenshots`
 1. Click on `Screenshot and recording options` field
 1. Press `PrtSc` on your keyboard (it should came out as `F13`)
-
-</details>
-
-<details>
-<summary><strong>Use Thinkpad Assistant </strong></summary>
-</br>
-
-1. Get a pair of Patch & SSDT from [Samples](./Tools/Thinkpad%20Assistant/Samples/SSDT-X380-KBRD.dsl) folder
-2. Compile SSDT (ex. `iasl -vo SSDT-X380-KBRD.dsl`)
-3. Copy `SSDT.aml` to EFI/OC/ACPI
-4. Apply patch on `config.plst` with [OCAT](https://github.com/ic005k/OCAuxiliaryTools)
-5. Download [Thinkpad Assistant](./Tools/Thinkpad%20Assistant/ThinkpadAssistant.dmg)
-6. Extract & Copy to Applications folder
-7. Start Thinkpad Assistant & Tick 'Launch on Login' in Menubar
-8. Reboot
 
 </details>
 
@@ -437,9 +422,10 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 <summary><strong>✅ What's working</strong></summary>
 </br>
 
-- [x] Intel HD 620 Graphics `including graphics acceleration`
-- [x] Battery management
+- [x] Intel UHD 620 Graphics `including graphics acceleration with Metal` (2048MB of VRAM)
+- [x] Battery management and conservation mode
 - [x] USB ports
+- [x] HDMI
 - [x] Internal camera `working fine on FaceTime, Skype, Zoom and others`
 - [x] Sleep / Wake / Shutdown / Reboot
 - [X] Intel WiFi & Bluetooth (thanks to [itlwn](https://github.com/OpenIntelWireless/itlwm) & [Heliport](https://github.com/OpenIntelWireless/HeliPort) )
@@ -448,8 +434,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 - [x] Microphone
 - [x] Keyboard map and hotkeys with [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 - [x] Multi-Touch Screen `Touchscreen feels more natural than using Touchpad (Touchpad gesture enabled). Pen also working`
-- [x] SIP and FileVault 2 can be turned on
-- [ ] Micro SD Card Reader `Kext removed in 1.0.6 update`
+- [x] `Genesys` SD Card Reader (with macOS generic kext)
 
 </details>
 
@@ -458,9 +443,9 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 </br>
 
 - [ ] Safari DRM `Use Chromium engine to watch Apple TV+, Amazon Prime Video, Netflix and others`
-- [ ] Fingerprint reader - `No. Don't expect macOS driver any time soon.`
-- [ ] Samsung PM 981 NVME drive - `Still unstable. Could work for some, not for others. See `[Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)
+- [ ] `Synaptics WBDI-SGX` Fingerprint reader - `No. Don't expect macOS driver any time soon.`
 - [ ] Sidecar Wireless `doesn't work without apple native WIFI card`
+- [ ] AirDrop
 
 </details>
 
@@ -469,48 +454,9 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 </br>
 
 - [ ] Apple Watch Unlock
-- [ ] WWAN
-- [ ] AirDrop
-- [ ] HDMI
-- [ ] Thunderbolt
 
 </details>
 
-## ⚡ Performance
-
-<details>  
-<summary><strong>🔥 Power consumption and thermals</strong></summary>
-</br>
-
-Sequoia
-| Idle State                     | Max Frequency                  | 2 Thread Frequency             | All Thread Frequency           | GPU Max Frequency              |
-| ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ |
-| ![](/Images/ipg-idle-freq.png) | ![](./Images/ipg-max-freq.png) | ![](./Images/ipg-two-freq.png) | ![](./Images/ipg-all-freq.png) | ![](./Images/ipg-gpu-freq.png) |
-
-Sonoma
-| Idle State                     | Max Frequency                  | 2 Thread Frequency             | All Thread Frequency           | GPU Max Frequency              |
-| ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ |
-| ![](/Images/ipg-idle-freq-sonoma.png) | ![](./Images/ipg-max-freq-sonoma.png) | ![](./Images/ipg-two-freq-sonoma.png) | ![](./Images/ipg-all-freq-sonoma.png) | ![](./Images/ipg-gpu-freq-sonoma.png) |
-</details>
-
-<details>  
-<summary><strong>⏱️ Benchmarks</strong></summary>
-</br>
-
-| CPU         | Single-Core | Multi-Core |
-| :---------- | ----------: | ---------: |
-| Geekbench 5 |         689 |       2670 |
-| **GPU**     |  **OpenCL** |  **Metal** |
-| Geekbench 5 |        4191 |       3683 |
-<small>macOS Sequoia 15.2, EFI release 1.0.3, CPU: i5-8350U</small>
-
-| CPU         | Single-Core | Multi-Core |
-| :---------- | ----------: | ---------: |
-| Geekbench 5 |         755 |       2479 |
-| **GPU**     |  **OpenCL** |  **Metal** |
-| Geekbench 5 |        2819 |       2471 |
-<small>macOS Sonoma14.7.2, EFI release 1.0.3, CPU: i5-8350U</small>
-</details>
 
 ## Credits
 

@@ -128,7 +128,7 @@ Config to allow you to use Apple Services (such as iMessage)
 ## 🧰 Post-install (optional)
 
 <details>  
-<summary><strong>Audio Setup</strong></summary>
+<summary><strong>🔊 Audio Setup</strong></summary>
 
 The Ideapad 530 Yoga has ALC236 for audio which requires the boot-arg **or** device property below. You can use the boot-args to initially setup your config.plist file as suggested in the guide or simply add the device property. Everything should work, built-in microphone, speakers, headphone jack and microphone. **In macOS Tahoe, you just need to rollback AppleHDA.kext** (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/AppleHDA.zip) with MyKextInstaller (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/MyKextInstaller.zip)
 
@@ -148,7 +148,7 @@ DeviceProperties
 </details>
 
 <details>  
-<summary><strong>Enable Intel WLAN cards</strong></summary>
+<summary><strong>🛜 Enable Intel WLAN cards</strong></summary>
 </br>
 
 Although the Intel AC-3165 Card is compatible with both kexts (use either one or the other), there are Pros and Cons to both of them (check the [**FAQs**](https://openintelwireless.github.io/itlwm/FAQ.html#features) for other differences):

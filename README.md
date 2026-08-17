@@ -48,7 +48,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | Category  | Component                                            | Note                                                         |
 | --------- | ---------------------------------------------------- | ------------------------------------------------------------ |
 | Type      | 81EK                                                 |                                                              |
-| CPU       | Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz             |                                                              |
+| CPU       | Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz (up to 3.40GHz)            |                                                              |
 | GPU       | Intel UHD Graphics 620                               |                                                              |
 | SSD       | Intel SSD 760p 256GB — M.2 2280 NVMe PCIe 3.0 x4     | If you need help, read this [Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)     |
 | Screen    | 14" FHD 1920x1080                                    | Multi touch and pen* support working (with "-vi2c-force-polling" in boot-args|
@@ -82,25 +82,26 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 1. Change your BIOS settings according to the table below
 1. Boot from the USB installer (press `F12` to choose boot volume) and [start the installation process](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb)
 
-### BIOS Config (F2 after pressing power button)
+### BIOS Configuration (F2 after pressing power button)
 
-| Menu     |                   |                                 | Setting     |
-| -------- | ----------------- | ------------------------------- | ----------- |
-| Config   | USB               | UEFI BIOS Support               | `Enable`    |
-|          | Power             | Intel SpeedStep Technology      | `Enable`    |
-|          |                   | CPU Power Management            | `Enable`    |
-|          | CPU               | Hyper-Threading Technology      | `Enable`    |
-| Security | Security Chip     |                                 | `Disable`   |
-|          | Memory Protection | Execution Prevention            | `Enable`    |
-|          | Virtualization    | Intel Virtualization Technology | `Enable`    |
-|          |                   | Intel VT-d Feature              | `Enable`    |
-|          | Secure Boot       |                                 | `Disable`   |
-|          | Intel SGX         |                                 | `Disable`   |
-|          | Device Guard      |                                 | `Disable`   |
-| Startup  | UEFI/Legacy Boot  |                                 | `UEFI Only` |
-|          | CSM Support       |                                 | `No`        |
-|          | Boot Mode         |                                 | `Quick`     |
-
+| Menu     |                                 | Setting     |
+| -------- | ------------------------------- | ----------- |
+| Config   | Wireless LAN                    | `✅ Enabled`    |
+|          | Intel Virtual Technology        | `✅ Enabled`    |
+|          | Intel(R) Hyper-Threading Technology          | `✅ Enabled`    |
+|          | BIOS Back Flash                 | `❌ Disabled`    |
+|          | HotKey Mode                     | `✅ Enabled`     |
+|          | Always On USB                   | `✅ Enabled`    |
+|          | DPTF                            | `✅ Enabled`    |
+| Security |                                 | `Disable`   |
+|          | Intel Platform Trust Technology           | `✅ Enabled`    |
+|          | Intel SGX						 | `❌ Disabled`    |
+|          | Secure Boot              		 | `❌ Disabled`    |
+| Boot	   | Boot Mode                       | `UEFI` |
+|          | Fast Boot                       | `❌ Disabled`    |
+|          | USB Boot                        | `✅ Enabled`     |
+|          | PXE Boot to LAN                 | `❌ Disabled`     |
+| Boot	   | Boot Mode                       | `UEFI` |
 </details>
 
 <details>  

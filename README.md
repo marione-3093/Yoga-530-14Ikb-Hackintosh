@@ -53,7 +53,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | CPU       | Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz (up to 3.40GHz)            |                                                              |
 | GPU       | Intel UHD Graphics 620                               |                                                              |
 | SSD       | Intel SSD 760p 256GB — M.2 2280 NVMe PCIe 3.0 x4     | If you need help, read this [Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)     |
-| Screen    | 14" FHD 1920x1080                                    | Multi touch and pen* support working (with "-vi2c-force-polling" in boot-args|
+| Screen    | 14" FHD 1920x1080                                    | Multi touch and pen* support working (with "-vi2c-force-polling" in boot-args) |
 | Memory    | 16GB DDR4 2400Mhz                                    |                                                              |
 | Camera    | 720p Camera                                          |                                                              |
 | Audio     | Realtek® ALC236                                      | I suggest to use layout ID `13`. It works very well.         |

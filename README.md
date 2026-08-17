@@ -2,15 +2,12 @@
 
 <img align="right" src="[https://files.refurbed.com/ii/lenovo-yoga-530-14ikb-i5-8250u-1686049708.jpg?t=fitdesign&h=600&w=800]" alt="macOS running on the 530 (Intel) Yoga" width="425">
 
-[![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.6-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![Model](https://img.shields.io/badge/Model-20LJ-9cf)](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X380_Yoga/ThinkPad_X380_Yoga_Spec.PDF)
-[![BIOS](https://img.shields.io/badge/BIOS-1.41-blue)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x380-yoga/downloads/driver-list/component?name=BIOS%2FUEFI&id=5AC6A815-321D-440E-8833-B07A93E0428C)
-[![issues](https://img.shields.io/github/issues/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh-OpenCore)](https://github.com/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh-OpenCore/issues)
-[![last commit](https://img.shields.io/github/last-commit/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh-OpenCore)](https://github.com/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh-OpenCore)
-[![License](https://img.shields.io/badge/license-MIT-purple.svg)](/LICENSE)
+[![macOS](https://img.shields.io/badge/macOS-Tahoe-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![Model](https://img.shields.io/badge/Model-14Ikb-9cf)](https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_530_14IKB/Yoga_530_14IKB_Spec.pdf)
+[![BIOS](https://img.shields.io/badge/BIOS-7QCN46WW-blue)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/yoga-series/yoga-530-14ikb/downloads/driver-list/component?name=BIOS%2FUEFI&id=5AC6A815-321D-440E-8833-B07A93E0428C)
 
 **DISCLAIMER:**  
 This OpenCore EFI works well on my "INTEL" Ideapad 530 Yoga. 

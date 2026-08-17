@@ -106,12 +106,12 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 </details>
 
 <details>  
-<summary><strong>Enable Apple Services</strong></summary>
+<summary><strong> Enable Apple Services</strong></summary>
 </br>
 
 Config to allow you to use Apple Services (such as iMessage)
 
-> **🗒️Note:**
+> **🗒️ Note:**
 >
 > If you (still) can't login to iMessage you may need to contact Apple Support to unblacklist your AppleID (You can try opening the Message app from terminal to check the log to see if you're getting a Customer Code error, which is an indication that your AppleID got blacklisted. [See more info here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#customer-code-error))
 
@@ -130,7 +130,7 @@ Config to allow you to use Apple Services (such as iMessage)
 <details>  
 <summary><strong>Audio Setup</strong></summary>
 
-The Ideapad 530 Yoga has ALC236 for audio which requires the boot-arg **or** device property below. You can use the boot-args to initially setup your config.plist file as suggested in the guide or simply add the device property. Everything should work, built-in microphone, speakers, headphone jack and microphone. In macos Tahoe, you just need to rollback AppleHDA.kext (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/AppleHDA.zip) with MyKextInstaller (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/MyKextInstaller.zip)
+The Ideapad 530 Yoga has ALC236 for audio which requires the boot-arg **or** device property below. You can use the boot-args to initially setup your config.plist file as suggested in the guide or simply add the device property. Everything should work, built-in microphone, speakers, headphone jack and microphone. **In macOS Tahoe, you just need to rollback AppleHDA.kext** (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/AppleHDA.zip) with MyKextInstaller (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/MyKextInstaller.zip)
 
 NVRAM:
 

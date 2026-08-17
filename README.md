@@ -1,6 +1,6 @@
 # Lenovo Ideapad Yoga 530-14IKB - OpenCore Configuration
 
-<img align="right" src="[https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MzY5NzQ4fGltYWdlL3BuZ3xoMTEvaGMwLzE0NDQ4MTg0NTI0ODMwLnBuZ3wyZjE4MmQ5YmEyN2U1M2VhOTJkZDM4NzFjMTUzNDk2M2NmOGQ5OTQ2MjYxNTVlNjY3YmYxMTU4ZDM2Y2RmNjlk/lenovo-laptop-thinkpad-x380-2-in-1-hero.png](https://files.refurbed.com/ii/lenovo-yoga-530-14ikb-i5-8250u-1686049708.jpg?t=fitdesign&h=600&w=800)" alt="macOS running on the 530 (Intel) Yoga" width="425">
+<img align="right" src="[https://files.refurbed.com/ii/lenovo-yoga-530-14ikb-i5-8250u-1686049708.jpg?t=fitdesign&h=600&w=800]" alt="macOS running on the 530 (Intel) Yoga" width="425">
 
 [![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)

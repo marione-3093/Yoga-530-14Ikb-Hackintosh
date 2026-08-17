@@ -175,7 +175,7 @@ Although the Intel AC-3165 Card is compatible with both kexts (use either one or
 
 > **🗒️Note:**
 > 
-> My config uses `AirportItlwm.kext` by default since it allows accessing the internet during macOS installation (unlike `itlwm.kext` which requires an additional app to do so). Currently, AirportItlwm kexts for macOS Sequoia is included but you must patch using (https://youtu.be/C_wa3tQzWt8?si=QljfTeTbMhlmHEn6). If you want to use itlwm, disable AirportItlwm (all variants) and enable itlwm in the config.plist instead. Next, download the Heliport app, run it and add it to "Login Items" (in System Settings) so that it starts automatically with macOS.
+> My config uses `AirportItlwm.kext` by default since it allows accessing the internet during macOS installation (unlike `itlwm.kext` which requires an additional app to do so). Currently, AirportItlwm kexts for macOS Sequoia is included but you must patch following this tutorial: (https://youtu.be/C_wa3tQzWt8?si=QljfTeTbMhlmHEn6). If you want to use itlwm, disable AirportItlwm (all variants) and enable itlwm in the config.plist instead. Next, download the Heliport app, run it and add it to "Login Items" (in System Settings) so that it starts automatically with macOS.
 
 </details>
 

@@ -11,6 +11,7 @@
 **DISCLAIMER:**  
 This OpenCore EFI works well on my "INTEL" Ideapad 530 Yoga. 
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start to get an understanding of the install process. It will save many a message instructing you to read the manual. 
+
 ℹ️ Take also a look to the "Images" folder above!
 
 You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hackintosh/), [TonyMacX86](https://www.tonymacx86.com) or [Google](https://www.google.com).

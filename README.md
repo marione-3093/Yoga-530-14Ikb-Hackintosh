@@ -76,7 +76,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 ## 📖 Installation
 
 <details>  
-<summary><strong>How to install macOS</strong></summary>
+<summary><strong>💿 How to install macOS</strong></summary>
 </br>
 
 1. [Create an installation media](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer)
@@ -125,7 +125,7 @@ Config to allow you to use Apple Services (such as iMessage)
 8. Check the Serial Number validity. Repeat step 5 and choose different result (or generate new set of SMBIOS) until you find invalid Serial Number
 </details>
 
-## 🧰 Post-install (to-do)
+## 🧰 Post-install (TO-DO)
 
 <details>  
 <summary><strong>🔊 Audio Setup</strong></summary>

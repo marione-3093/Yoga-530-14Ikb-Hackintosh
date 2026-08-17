@@ -1,8 +1,7 @@
-# Lenovo Ideapad Yoga 530-14IKB - Hackintosh with OpenCore
+# Lenovo Ideapad Yoga 530-14IKB Hackintosh - OpenCore
 
 <img align="right" src="[https://p2-ofp.static.pub/fes/cms/2022/09/23/2hlnrsq97hxle4024baiqqu71epwks693597.png]" alt="macOS running on the 530 (Intel) Yoga" width="425">
 
-[![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Tahoe-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.7-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
@@ -12,6 +11,7 @@
 **DISCLAIMER:**  
 This OpenCore EFI works well on my "INTEL" Ideapad 530 Yoga. 
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start to get an understanding of the install process. It will save many a message instructing you to read the manual. 
+ℹ️ Take also a look to the "Images" folder above!
 
 You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hackintosh/), [TonyMacX86](https://www.tonymacx86.com) or [Google](https://www.google.com).
 
@@ -65,7 +65,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 
 | Component     | Version |
 | ------------- | ------- |
-| macOS Tahoe   | 26.3.1  |
+| macOS Sequoia / Tahoe  | 15.7.9 / 26.3.1  |
 | OpenCore      | v1.0.7  |
 
 </details>
@@ -81,7 +81,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 1. Change your BIOS settings according to the table below
 1. Boot from the USB installer (press `F12` to choose boot volume) and [start the installation process](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb)
 
-### BIOS Config
+### BIOS Config (F2 after pressing power button)
 
 | Menu     |                   |                                 | Setting     |
 | -------- | ----------------- | ------------------------------- | ----------- |
@@ -200,14 +200,21 @@ I mapped and enabled all the USB ports using (https://github.com/usbtoolbox/tool
 </br>
 
 1. [Disable SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
-1. Run the following script in Terminal
+2. Run the following script in Terminal
    ```bash
    bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
    ```
-1. Follow the instructions, then reboot
-1. Re-enable SIP (if desired)
+3. Follow the instructions, then reboot
+4. Re-enable SIP (if desired)
 
 Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scaled-Resolutions)
+
+<details>  
+<summary><strong>Personalize "About my Mac" section</strong></summary>
+</br>
+
+1. [Disable SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
+2. Follow this guide: (https://www.reddit.com/r/hackintosh/comments/1iubdhk/guide_to_change_about_this_mac_name_and_photo_on/)
 
 </details>
 
@@ -229,9 +236,9 @@ Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scal
 Super useful shortcut that I wish I had it on my previous MBP. Default is `⌘⇧5`.
 
 1. Open SystemPreferences.app
-1. Go under `Keyboard > Shortcuts > Screenshots`
-1. Click on `Screenshot and recording options` field
-1. Press `PrtSc` on your keyboard (it should came out as `F13`)
+2. Go under `Keyboard > Shortcuts > Screenshots`
+3. Click on `Screenshot and recording options` field
+4. Press `PrtSc` on your keyboard (it should came out as `F13`)
 
 </details>
 
@@ -283,7 +290,7 @@ After this is done, just reboot your machine. After it is up and running again, 
 [Script](https://www.tonymacx86.com/threads/release-sleeponlowbattery-solb.264785) that performs auto sleep/hibernate at low battery.
 
 1. Open terminal
-1. Enter commands below one by one
+2. Enter commands below one by one
 
    Settings for AC:
 

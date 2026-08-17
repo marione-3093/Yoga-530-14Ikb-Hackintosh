@@ -294,7 +294,7 @@ After this is done, just reboot your machine. After it is up and running again, 
 | Menu |       |            | Setting    | What does it do?     |
 | :--- | :---- | :--------- | :--------- | :------------------- |
 | Misc | Boot  | ShowPicker | `False`    | Skip bootloader page |
-| UEFI | Audio | PlayChime  | `Disabled` | Always silent boot   |
+| UEFI | Audio | PlayChime  | `Enabled`  | Play chime on boot   |
 
 </details>
 

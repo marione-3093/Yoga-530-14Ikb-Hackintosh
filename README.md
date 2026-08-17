@@ -468,7 +468,6 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 
 - [Apple](https://apple.com) for macOS.
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
-.
 - [CorpNewt](https://github.com/corpnewt) for ProperTree, CPUFriendFriend and SSDTTime
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) Made the OpenCore Install Guide which was used to make this EFI.
 - [ic005k](https://github.com/ic005k/OCAuxiliaryTools) for OpenCore Auxiliary Tools

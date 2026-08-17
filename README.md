@@ -29,15 +29,17 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 
 **Recommended tools:**
 
-- Plist editor [ProperTree](https://github.com/corpnewt/ProperTree)
-- Handy-dandy ESP mounting script [MountEFI](https://github.com/corpnewt/MountEFI)
-- Cross-platform GUI management tools for OpenCore [OCAT](https://github.com/ic005k/OCAuxiliaryTools)
+- Plist editor [ProperTree](https://github.com/corpnewt/ProperTree) or [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
+- Handy-dandy ESP mounting script [MountEFI](https://github.com/corpnewt/MountEFI) if you don't want to use OpenCore Configurator and manually copy the EFI
+- Cross-platform GUI management tools for OpenCore [OCAT](https://github.com/ic005k/OCAuxiliaryTools) if you are on WINDOWS
 - Py script that uses acidanthera's macserial to generate SMBIOS [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 - The Swiss army knife of vanilla Hackintoshing [Hackintool](https://github.com/benbaker76/Hackintool)
 
 **Resources**
 
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
+- The classic OpenCore Legacy Patcher for SEQUOIA: (https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.4.1)
+- OCLP-PLUS: a modded version for macOS Tahoe, credits to "YBronst": (https://github.com/YBronst/OCLP-Plus/releases/tag/3.2.2)
 
 </details>
 

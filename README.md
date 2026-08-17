@@ -442,6 +442,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 - [ ] `Synaptics WBDI-SGX` Fingerprint reader - `No. Don't expect macOS driver any time soon.`
 - [ ] Sidecar Wireless `doesn't work without apple native WIFI card`
 - [ ] AirDrop
+- [ ] Nvidia MX130 (disabled with SSDT-dGPU-Off.aml) -> Discrete graphic card is not working, since macOS doesn't support Optimus technology
 
 </details>
 

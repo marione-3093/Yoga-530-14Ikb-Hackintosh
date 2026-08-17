@@ -58,7 +58,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | Camera    | 720p Camera                                          |                                                              |
 | Audio     | Realtek® ALC236                                      | I suggest to use layout ID `13`. It works very well.         |
 | Touchpad  | Synaptics I2C Touchpad                               | Works with multi-gestures.                                   |
-| Wifi & BT | Intel Dual Band Wireless-AC 3165 + Bluetooth         | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control. Bluetooth already works with my kexts and NVRAM data |
+| Wifi & BT | Intel Dual Band Wireless-AC 3165 + Bluetooth         | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control. Bluetooth already works with my modified kexts for Tahoe and controller info in NVRAM, so you don't have to do anything  |
 | Input     | Synaptics I2C Touchpad & PS/2 Keyboard (touchscreen and pen) | I'm using [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys. The kext is in the folder but **you must install the YogaSMC app separately.** |
 
 </details>
@@ -214,7 +214,7 @@ Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scal
 </details>
 
 <details>  
-<summary><strong>Personalize "About my Mac" section</strong></summary>
+<summary><strong>🖌️ Personalize "About my Mac" section</strong></summary>
 </br>
 
 1. [Disable SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
@@ -223,7 +223,7 @@ Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scal
 </details>
 
 <details>  
-<summary><strong>Enable multimedia keys, fan & LEDs control </strong></summary>
+<summary><strong>⏯️ Enable multimedia keys, fan & LEDs control </strong></summary>
 </br>
 
 - Download [**YogaSMC-App**](https://github.com/zhen-zen/YogaSMC/files/14324664/Builds.zip) and mount it. This is a custom build which fixes the "Failed to open Preferences" [issue](https://github.com/zhen-zen/YogaSMC/issues/189) in Ventura and newer  
@@ -234,7 +234,7 @@ Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scal
 </details>
 
 <details>  
-<summary><strong>Use PrtSc key as Screenshot shortcut</strong></summary>
+<summary><strong>📸 Use PrtSc key as Screenshot shortcut</strong></summary>
 </br>
 
 Super useful shortcut that I wish I had it on my previous MBP. Default is `⌘⇧5`.
@@ -247,7 +247,7 @@ Super useful shortcut that I wish I had it on my previous MBP. Default is `⌘�
 </details>
 
 <details>  
-<summary><strong>Faster macOS dock animation</strong></summary>
+<summary><strong>🏎️ Faster macOS dock animation</strong></summary>
 </br>
 
 This enables auto-hide and speeds up the animation
@@ -259,7 +259,7 @@ This enables auto-hide and speeds up the animation
    </details>
 
 <details>  
-<summary><strong>Fix Windows Time Sync</strong></summary>
+<summary><strong>🕰️ Fix Windows Time Sync</strong></summary>
 </br>
 
 `RealTimeIsUniversal` registry key still works in Windows 8, 10, and 11! Just tested it by myself. The instructions to use this method are explained lot of times everywhere, for example in this answer.
@@ -288,7 +288,7 @@ After this is done, just reboot your machine. After it is up and running again, 
 </details>
 
 <details>  
-<summary><strong>Setup hibernation and sleep</strong></summary>
+<summary><strong>🌙 Setup hibernation and sleep</strong></summary>
 </br>
 
 [Script](https://www.tonymacx86.com/threads/release-sleeponlowbattery-solb.264785) that performs auto sleep/hibernate at low battery.
@@ -329,7 +329,7 @@ sudo pmset restoredefaults
 </details> 
 
 <details> 
-<summary><strong>Grant/remove accessibility permissions to any app</strong></summary>
+<summary><strong>🚹 Grant/remove accessibility permissions to any app</strong></summary>
 
 tccutil with extended capabilities allowing you to grant/remove accessibility permissions to any app.
 
@@ -401,7 +401,7 @@ Successfully added Microphone approval status for com.hnc.Discord
 </details> 
 
 <details>  
-<summary><strong>Advanced energy management</strong></summary>
+<summary><strong>⚡️ Advanced energy management</strong></summary>
 
 `acwake`: wake the machine when power source (AC/battery) is changed (value = 0/1)
 

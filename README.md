@@ -1,6 +1,6 @@
-# Lenovo ThinkPad X380 Yoga - OpenCore Configuration
+# Lenovo Ideapad Yoga 530-14IKB - OpenCore Configuration
 
-<img align="right" src="https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MzY5NzQ4fGltYWdlL3BuZ3xoMTEvaGMwLzE0NDQ4MTg0NTI0ODMwLnBuZ3wyZjE4MmQ5YmEyN2U1M2VhOTJkZDM4NzFjMTUzNDk2M2NmOGQ5OTQ2MjYxNTVlNjY3YmYxMTU4ZDM2Y2RmNjlk/lenovo-laptop-thinkpad-x380-2-in-1-hero.png" alt="macOS running on the X380 Yoga" width="425">
+<img align="right" src="[https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MzY5NzQ4fGltYWdlL3BuZ3xoMTEvaGMwLzE0NDQ4MTg0NTI0ODMwLnBuZ3wyZjE4MmQ5YmEyN2U1M2VhOTJkZDM4NzFjMTUzNDk2M2NmOGQ5OTQ2MjYxNTVlNjY3YmYxMTU4ZDM2Y2RmNjlk/lenovo-laptop-thinkpad-x380-2-in-1-hero.png](https://files.refurbed.com/ii/lenovo-yoga-530-14ikb-i5-8250u-1686049708.jpg?t=fitdesign&h=600&w=800)" alt="macOS running on the 530 (Intel) Yoga" width="425">
 
 [![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
@@ -13,10 +13,10 @@
 [![License](https://img.shields.io/badge/license-MIT-purple.svg)](/LICENSE)
 
 **DISCLAIMER:**  
-This OpenCore EFI works fine on my Thinkpad X380 Yoga. 
+This OpenCore EFI works well on my "INTEL" Ideapad 530 Yoga. 
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start to get an understanding of the install process. It will save many a message instructing you to read the manual. 
 
-With that said I'm happy to help when/where I can. When you encounter bug or want to improve this repo, consider opening an issue or pull request. You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hackintosh/), [TonyMacX86](https://www.tonymacx86.com) or [Google](https://www.google.com).
+You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hackintosh/), [TonyMacX86](https://www.tonymacx86.com) or [Google](https://www.google.com).
 
 ## 👋 Introduction
 
@@ -24,7 +24,7 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 <summary><strong>📖 Getting started</strong></summary>
 </br>
 
-**Meet the Bootloader:**
+**The Bootloader:**
 
 - [Why OpenCore](https://dortania.github.io/OpenCore-Install-Guide/why-oc.html)
 - Dortania's [website](https://dortania.github.io)
@@ -49,18 +49,17 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 
 | Category  | Component                                            | Note                                                         |
 | --------- | ---------------------------------------------------- | ------------------------------------------------------------ |
-| Type      | 20LJ                                                 |                                                              |
-| CPU       | Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz             |                                                              |
-| GPU       | Intel UHD 620                                        |                                                              |
-| SSD       | Lexar NM620 512GB M.2 NVMe SSD                       | Replaced cursed PM 981 which still doesn't work reliably. Read this [Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)     |
-| Screen    | 13.3" FHD 1920x1080                                  | Multi touch and pen* support working                         |
+| Type      | 81EK                                                 |                                                              |
+| CPU       | Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz             |                                                              |
+| GPU       | Intel UHD Graphics 620                               |                                                              |
+| SSD       | Intel SSD 760p 256GB — M.2 2280 NVMe PCIe 3.0 x4     | If you need help, read this [Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)     |
+| Screen    | 14" FHD 1920x1080                                    | Multi touch and pen* support working (with "-vi2c-force-polling" in boot-args|
 | Memory    | 16GB DDR4 2400Mhz                                    |                                                              |
-| Camera    | 720p Camera + IR Camera                              |                                                              |
-| Audio     | Conexant® CX8200                                     | I suggest trying several layout ID `3, 15, 21, 23, or 80`    |
-| Touchpad  | ELAN v4 LEN2034 PS2 Interface                        | If the Trackpad is not working properly, try disabling the Trackpoint in the BIOS. |
-| Wifi & BT | Intel AC 8265 and Bluetooth                          | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control. |
-| Ethernet  | Intel I219-LM4 Gigabit Ethernet                      |                                                              | 
-| Input     | PS2 Keyboard & I2CHID TrackPad (touchscreen and pen) | I'm using [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys. The kext is in the folder but **you must install the YogaSMC app separately.** |
+| Camera    | 720p Camera                                          |                                                              |
+| Audio     | Realtek® ALC236                                      | I suggest to use layout ID `13`. It works very well.         |
+| Touchpad  | Synaptics I2C Touchpad                               | Works with multi-gestures.                                   |
+| Wifi & BT | Intel Dual Band Wireless-AC 3165 + Bluetooth         | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control. |
+| Input     | Synaptics I2C Touchpad & PS/2 Keyboard (touchscreen and pen) | I'm using [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys. The kext is in the folder but **you must install the YogaSMC app separately.** |
 
 </details>
 
@@ -69,8 +68,8 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 
 | Component     | Version |
 | ------------- | ------- |
-| macOS Sequoia | 15.7.2  |
-| OpenCore      | v1.0.6  |
+| macOS Tahoe   | 26.3.1  |
+| OpenCore      | v1.0.5  |
 
 </details>
 
@@ -119,7 +118,7 @@ Config to allow you to use Apple Services (such as iMessage)
 
 1. Download (or clone) [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and run it in terminal
 2. Type `3` to generate SMBIOS, then press <kbd>Enter</kbd>
-3. Type `MacBookPro15,2 5`, then press <kbd>Enter</kbd>
+3. Type `MacBookPro15,2`, then press <kbd>Enter</kbd>
 4. Open `EFI/Config.plist` (I highly recommend using [ProperTree](https://github.com/corpnewt/ProperTree)) and navigate to `PlatformInfo -> Generic`
 5. Add one of the script's result to `MLB`, `SystemSerialNumber`, and `SystemUUID`
 6. Replace `ROM` with your MAC Address (`System Preferences -> Network -> Ethernet -> Advanced -> Hardware -> MAC Address`, then remove all the colons `:`). Or you can also try using a real Apple MAC Address
@@ -132,13 +131,13 @@ Config to allow you to use Apple Services (such as iMessage)
 <details>  
 <summary><strong>Audio Setup</strong></summary>
 
-The X380 Yoga has CX8200 for audio which requires the boot-arg **or** device property below. You can use the boot-args to initially setup your config.plist file as suggested in the guide or simply add the device property. Everything should work, built-in microphone, speakers, headphone jack and microphone. 
+The Ideapad 530 Yoga has ALC236 for audio which requires the boot-arg **or** device property below. You can use the boot-args to initially setup your config.plist file as suggested in the guide or simply add the device property. Everything should work, built-in microphone, speakers, headphone jack and microphone. In macos Tahoe, you just need to rollback AppleHDA.kext (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/AppleHDA.zip) with MyKextInstaller (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/MyKextInstaller.zip)
 
 NVRAM:
 
 | Key       | Value    |
 | --------- | -------- |
-| boot-args | alcid=23 |
+| boot-args | alcid=13 |
 
 DeviceProperties
 

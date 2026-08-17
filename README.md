@@ -1,6 +1,6 @@
 # Lenovo Ideapad Yoga 530-14IKB Hackintosh - OpenCore
 
-<img align="right" src="[https://p2-ofp.static.pub/fes/cms/2022/09/23/2hlnrsq97hxle4024baiqqu71epwks693597.png]" width="425">
+<img align="right" src="[https://p2-ofp.static.pub/fes/cms/2022/09/23/2hlnrsq97hxle4024baiqqu71epwks693597.png]" alt="PC image" width="425">
 
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Tahoe-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)

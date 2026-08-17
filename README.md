@@ -449,8 +449,8 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 <summary><strong>⚠️ What's not working</strong></summary>
 </br>
 
-- [ ] Safari DRM `Use Chromium engine to watch Apple TV+, Amazon Prime Video, Netflix and others`
-- [ ] `Synaptics WBDI-SGX` Fingerprint reader - `No. Don't expect macOS driver any time soon.`
+- [ ]🌐 Safari DRM `Use Chromium engine to watch Apple TV+, Amazon Prime Video, Netflix and others`
+- [ ] 🫆 `Synaptics WBDI-SGX` Fingerprint reader - `No. Don't expect macOS driver any time soon.`
 - [ ] Sidecar Wireless `doesn't work without apple native WIFI card`
 - [ ] AirDrop
 - [ ] Nvidia MX130 (disabled with SSDT-dGPU-Off.aml) -> Discrete graphic card is not working, since macOS doesn't support Optimus technology
@@ -461,7 +461,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 <summary><strong>🔄 Not tested</strong></summary>
 </br>
 
-- [ ] Apple Watch Unlock
+- [ ]⌚️ Apple Watch Unlock
 
 </details>
 

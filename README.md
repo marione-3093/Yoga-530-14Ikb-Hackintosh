@@ -125,7 +125,7 @@ Config to allow you to use Apple Services (such as iMessage)
 8. Check the Serial Number validity. Repeat step 5 and choose different result (or generate new set of SMBIOS) until you find invalid Serial Number
 </details>
 
-## 🧰 Post-install (optional)
+## 🧰 Post-install (to-do)
 
 <details>  
 <summary><strong>🔊 Audio Setup</strong></summary>
@@ -148,7 +148,7 @@ DeviceProperties
 </details>
 
 <details>  
-<summary><strong>🛜 Enable Intel WLAN cards</strong></summary>
+<summary><strong>🛜 Enable Intel WLAN card</strong></summary>
 </br>
 
 Although the Intel AC-3165 Card is compatible with both kexts (use either one or the other), there are Pros and Cons to both of them (check the [**FAQs**](https://openintelwireless.github.io/itlwm/FAQ.html#features) for other differences):
@@ -182,7 +182,7 @@ Although the Intel AC-3165 Card is compatible with both kexts (use either one or
 </details>
 
 <details>  
-<summary><strong>CPUFriend power management</strong></summary>
+<summary><strong>🧠 CPUFriend power management</strong></summary>
 <br>
 
 Generate `CPUFriendDataProvider` or `ssdt_data.aml` (choose one) for your machine [here](https://github.com/acidanthera/CPUFriend) or use my stable configuration provided. My files are set for power conservation over performance. Highly recommended that you use power management.
@@ -190,7 +190,7 @@ Generate `CPUFriendDataProvider` or `ssdt_data.aml` (choose one) for your machin
 </details>
 
 <details> 
-<summary><strong>USB Ports</strong></summary>
+<summary><strong>🔌 USB Ports</strong></summary>
 
 I mapped and enabled all the USB ports using (https://github.com/usbtoolbox/tool)
 

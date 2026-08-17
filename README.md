@@ -227,7 +227,7 @@ Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scal
 </br>
 
 Open terminal and run install.sh from PostInstall/ComboJackAlc255. After reboot insert jack and appears this image
-![jack](./Screenshot/Combojackfix.png)
+![jack](./Images/Combojackfix.png)
 
 See [ioreg](./ioregMacmini.ioreg) for more clarification
 

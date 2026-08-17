@@ -93,15 +93,14 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 |          | HotKey Mode                     | `✅ Enabled`     |
 |          | Always On USB                   | `✅ Enabled`    |
 |          | DPTF                            | `✅ Enabled`    |
-| Security |                                 | `Disable`   |
-|          | Intel Platform Trust Technology           | `✅ Enabled`    |
+| Security | Intel Platform Trust Technology           | `✅ Enabled`    |
 |          | Intel SGX						 | `❌ Disabled`    |
 |          | Secure Boot              		 | `❌ Disabled`    |
 | Boot	   | Boot Mode                       | `UEFI` |
 |          | Fast Boot                       | `❌ Disabled`    |
 |          | USB Boot                        | `✅ Enabled`     |
 |          | PXE Boot to LAN                 | `❌ Disabled`     |
-| Boot	   | Boot Mode                       | `UEFI` |
+| Exit	   | OS optimized defaults           | `✅ Enabled` |
 </details>
 
 <details>  

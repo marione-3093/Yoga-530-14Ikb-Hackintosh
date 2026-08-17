@@ -449,7 +449,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 <summary><strong>⚠️ What's not working</strong></summary>
 </br>
 
-- [ ]🌐 Safari DRM `Use Chromium engine to watch Apple TV+, Amazon Prime Video, Netflix and others`
+- [ ] 🌐 Safari DRM `Use Chromium engine to watch Apple TV+, Amazon Prime Video, Netflix and others`
 - [ ] 🫆 `Synaptics WBDI-SGX` Fingerprint reader - `No. Don't expect macOS driver any time soon.`
 - [ ] Sidecar Wireless `doesn't work without apple native WIFI card`
 - [ ] AirDrop
@@ -461,7 +461,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 <summary><strong>🔄 Not tested</strong></summary>
 </br>
 
-- [ ]⌚️ Apple Watch Unlock
+- [ ] ⌚️ Apple Watch Unlock
 
 </details>
 

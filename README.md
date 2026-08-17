@@ -58,7 +58,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | Camera    | 720p Camera                                          |                                                              |
 | Audio     | Realtek® ALC236                                      | I suggest to use layout ID `13`. It works very well.         |
 | Touchpad  | Synaptics I2C Touchpad                               | Works with multi-gestures.                                   |
-| Wifi & BT | Intel Dual Band Wireless-AC 3165 + Bluetooth         | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control. |
+| Wifi & BT | Intel Dual Band Wireless-AC 3165 + Bluetooth         | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control. Bluetooth already works with my kexts and NVRAM data |
 | Input     | Synaptics I2C Touchpad & PS/2 Keyboard (touchscreen and pen) | I'm using [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys. The kext is in the folder but **you must install the YogaSMC app separately.** |
 
 </details>

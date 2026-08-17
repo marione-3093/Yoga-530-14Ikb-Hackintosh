@@ -5,7 +5,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Tahoe-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.7-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![Model](https://img.shields.io/badge/Model-14Ikb-9cf)](https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_530_14IKB/Yoga_530_14IKB_Spec.pdf)
 [![BIOS](https://img.shields.io/badge/BIOS-7QCN46WW-blue)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/yoga-series/yoga-530-14ikb/downloads/driver-list/component?name=BIOS%2FUEFI&id=5AC6A815-321D-440E-8833-B07A93E0428C)
 
@@ -66,7 +66,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | Component     | Version |
 | ------------- | ------- |
 | macOS Tahoe   | 26.3.1  |
-| OpenCore      | v1.0.5  |
+| OpenCore      | v1.0.7  |
 
 </details>
 
@@ -420,11 +420,11 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 
 - [x] Intel UHD 620 Graphics `including graphics acceleration with Metal` (2048MB of VRAM)
 - [x] Battery management and conservation mode
-- [x] USB ports
+- [x] USB ports (type -A and -C)
 - [x] HDMI
 - [x] Internal camera `working fine on FaceTime, Skype, Zoom and others`
 - [x] Sleep / Wake / Shutdown / Reboot
-- [X] Intel WiFi & Bluetooth (thanks to [itlwn](https://github.com/OpenIntelWireless/itlwm) & [Heliport](https://github.com/OpenIntelWireless/HeliPort) )
+- [X] Intel WiFi & Bluetooth (thanks to [itlwm](https://github.com/OpenIntelWireless/itlwm) & [HeliPort](https://github.com/OpenIntelWireless/HeliPort) )
 - [x] iMessage, FaceTime, App Store, iTunes Store `(Requires valid SMBIOS)`
 - [x] Speakers and headphones combo jack
 - [x] Microphone

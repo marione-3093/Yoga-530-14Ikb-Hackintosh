@@ -223,6 +223,17 @@ Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scal
 </details>
 
 <details>  
+<summary><strong>🎧 ComboJack</strong></summary>
+</br>
+
+Open terminal and run install.sh from PostInstall/ComboJackAlc255. After reboot insert jack and appears this image
+![jack](./Screenshot/Combojackfix.png)
+
+See [ioreg](./ioregMacmini.ioreg) for more clarification
+
+</details>
+
+<details>  
 <summary><strong>⏯️ Enable multimedia keys, fan & LEDs control </strong></summary>
 </br>
 
@@ -462,6 +473,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 </br>
 
 - [ ] ⌚️ Apple Watch Unlock
+- [ ] 🌀 Fan reading and control
 
 </details>
 

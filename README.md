@@ -209,6 +209,7 @@ I mapped and enabled all the USB ports using (https://github.com/usbtoolbox/tool
 4. Re-enable SIP (if desired)
 
 Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scaled-Resolutions)
+</details>
 
 <details>  
 <summary><strong>Personalize "About my Mac" section</strong></summary>

@@ -1,4 +1,4 @@
-# Lenovo Ideapad Yoga 530-14IKB - OpenCore Configuration
+# Lenovo Ideapad Yoga 530-14IKB - Hackintosh with OpenCore
 
 <img align="right" src="[https://p2-ofp.static.pub/fes/cms/2022/09/23/2hlnrsq97hxle4024baiqqu71epwks693597.png]" alt="macOS running on the 530 (Intel) Yoga" width="425">
 

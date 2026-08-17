@@ -1,6 +1,6 @@
 # Lenovo Ideapad Yoga 530-14IKB - OpenCore Configuration
 
-<img align="right" src="[https://files.refurbed.com/ii/lenovo-yoga-530-14ikb-i5-8250u-1686049708.jpg?t=fitdesign&h=600&w=800]" alt="macOS running on the 530 (Intel) Yoga" width="425">
+<img align="right" src="[https://p2-ofp.static.pub/fes/cms/2022/09/23/2hlnrsq97hxle4024baiqqu71epwks693597.png]" alt="macOS running on the 530 (Intel) Yoga" width="425">
 
 [![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
@@ -77,7 +77,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 </br>
 
 1. [Create an installation media](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer)
-1. Download the [latest EFI folder](https://github.com/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh/archive/refs/heads/main.zip) and copy it into the ESP partiton
+1. Download the [latest EFI folder](https://github.com/marione-3093/Yoga-530-14Ikb-Hackintosh/archive/refs/heads/main.zip) and copy it into the ESP partiton
 1. Change your BIOS settings according to the table below
 1. Boot from the USB installer (press `F12` to choose boot volume) and [start the installation process](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb)
 
@@ -93,7 +93,6 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 |          | Memory Protection | Execution Prevention            | `Enable`    |
 |          | Virtualization    | Intel Virtualization Technology | `Enable`    |
 |          |                   | Intel VT-d Feature              | `Enable`    |
-|          | Anti-Theft        | Computrace                      | `Disable`   |
 |          | Secure Boot       |                                 | `Disable`   |
 |          | Intel SGX         |                                 | `Disable`   |
 |          | Device Guard      |                                 | `Disable`   |

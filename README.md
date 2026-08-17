@@ -223,17 +223,6 @@ Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scal
 </details>
 
 <details>  
-<summary><strong>🎧 ComboJack</strong></summary>
-</br>
-
-Open terminal and run install.sh from PostInstall/ComboJackAlc255. After reboot insert jack and appears this image
-![jack](./Images/Combojackfix.png)
-
-See [ioreg](./ioregMacmini.ioreg) for more clarification
-
-</details>
-
-<details>  
 <summary><strong>⏯️ Enable multimedia keys, fan & LEDs control </strong></summary>
 </br>
 

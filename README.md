@@ -39,7 +39,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
 - The classic OpenCore Legacy Patcher for SEQUOIA: (https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.4.1)
-- OCLP-PLUS: a modded version for macOS Tahoe, credits to "YBronst": (https://github.com/YBronst/OCLP-Plus/releases/tag/3.2.2)
+- OCLP-PLUS: a modded version for macOS TAHOE, credits to "YBronst": (https://github.com/YBronst/OCLP-Plus/releases/tag/3.2.2)
 
 </details>
 

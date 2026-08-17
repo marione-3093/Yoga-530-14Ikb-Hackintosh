@@ -196,7 +196,7 @@ I mapped and enabled all the USB ports using (https://github.com/usbtoolbox/tool
 
 </details> 
 
-## 🛠️ Other tweaks
+## 🛠️ Other tweaks (optional)
 
 <details>  
 <summary><strong>🖥️ Enable HiDPI</strong></summary>

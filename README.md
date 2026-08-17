@@ -245,7 +245,7 @@ See [ioreg](./ioregMacmini.ioreg) for more clarification
 </details>
 
 <details>  
-<summary><strong>📸 Use PrtSc key as Screenshot shortcut</strong></summary>
+<summary><strong>📸 Use STAMP key as Screenshot shortcut (like on WINDOWS)</strong></summary>
 </br>
 
 Super useful shortcut that I wish I had it on my previous MBP. Default is `⌘⇧5`.
@@ -253,7 +253,7 @@ Super useful shortcut that I wish I had it on my previous MBP. Default is `⌘�
 1. Open SystemPreferences.app
 2. Go under `Keyboard > Shortcuts > Screenshots`
 3. Click on `Screenshot and recording options` field
-4. Press `PrtSc` on your keyboard (it should came out as `F13`)
+4. Press `Stamp` on your keyboard (it should came out as `F13`) and click done
 
 </details>
 

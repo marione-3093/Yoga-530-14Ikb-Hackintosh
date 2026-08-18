@@ -266,7 +266,7 @@ This enables auto-hide and speeds up the animation
 
 I will replicate the answer here:
 
-`Win+S`, `regedit`, `Enter`.
+`Win+R`, `regedit`, `Enter`.
 
 Navigate to the key:
 

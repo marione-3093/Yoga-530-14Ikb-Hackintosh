@@ -2,7 +2,7 @@
 
 <img align="right" src="https://p2-ofp.static.pub/fes/cms/2022/09/23/2hlnrsq97hxle4024baiqqu71epwks693597.png" alt="PC image" width="425">
 
-[![macOS](https://img.shields.io/badge/macOS-Sequoia-brightorange.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
+[![macOS](https://img.shields.io/badge/macOS-Sequoia-orange.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Tahoe-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.7-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![Model](https://img.shields.io/badge/Model-14Ikb-9cf)](https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_530_14IKB/Yoga_530_14IKB_Spec.pdf)

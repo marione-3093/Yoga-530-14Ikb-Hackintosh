@@ -4,7 +4,7 @@
 
 [![macOS](https://img.shields.io/badge/macOS-Sequoia-orange.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Tahoe-lightblue.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.7-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.7-grey.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![Model](https://img.shields.io/badge/Model-14Ikb-9cf)](https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_530_14IKB/Yoga_530_14IKB_Spec.pdf)
 [![BIOS](https://img.shields.io/badge/BIOS-7QCN46WW-brightgreen)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/yoga-series/yoga-530-14ikb/downloads/driver-list/component?name=BIOS%2FUEFI&id=5AC6A815-321D-440E-8833-B07A93E0428C)
 

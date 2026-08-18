@@ -69,7 +69,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 
 | Component     | Version |
 | ------------- | ------- |
-| macOS Sequoia / Tahoe [Tahoeee](https://i.namu.wiki/i/wREBgsvVpnbF2vgzsGC7ZPTy7ZnFp7QRH5KCgDKroJUObm41_lZ7yIQS7AYkBNKWdCGK3PWz8T75zr1nxmdeeg.webp)  | 15.7.9 / 26.3.1  |
+| macOS [Sequoia](https://www.apple.com/newsroom/2024/06/macos-sequoia-takes-productivity-and-intelligence-on-mac-to-new-heights/) / [Tahoe](https://www.apple.com/newsroom/2025/06/macos-tahoe-26-makes-the-mac-more-capable-productive-and-intelligent-than-ever/)  | 15.7.9 / 26.3.1  |
 | OpenCore      | v1.0.7  |
 
 </details>

@@ -131,7 +131,7 @@ Config to allow you to use Apple Services (such as iMessage)
 <details>  
 <summary><strong>🔊 Audio Setup</strong></summary>
 
-The Ideapad 530 Yoga has ALC236 for audio which requires the boot-arg **or** device property below. You can use the boot-args to initially setup your config.plist file as suggested in the guide or simply add the device property. Everything should work, built-in microphone, speakers, headphone jack and microphone. **In macOS Tahoe, you just need to rollback AppleHDA.kext** (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/AppleHDA.zip) with MyKextInstaller (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/MyKextInstaller.zip)
+The Ideapad 530 Yoga has ALC236 for audio which requires the boot-arg **or** device property below that I've already included in the EFI. You can just use the boot-args to initially setup your config.plist file as suggested in the guide or simply add the device property. Everything should work, built-in microphone, speakers, headphone jack and microphone. **Otherwise, in macOS Tahoe, you just need to rollback AppleHDA.kext** (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/AppleHDA.zip) with MyKextInstaller (https://github.com/Mirone/MyKextInstaller/releases/download/1.0/MyKextInstaller.zip)
 
 NVRAM:
 

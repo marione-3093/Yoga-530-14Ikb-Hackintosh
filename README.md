@@ -1,4 +1,4 @@
-# Lenovo Ideapad Yoga 530-14IKB Hackintosh - OpenCore
+# Lenovo Yoga 530-14IKB Hackintosh - OpenCore
 
 <img align="right" src="https://p2-ofp.static.pub/fes/cms/2022/09/23/2hlnrsq97hxle4024baiqqu71epwks693597.png" alt="PC image" width="425">
 
@@ -9,7 +9,7 @@
 [![BIOS](https://img.shields.io/badge/BIOS-7QCN46WW-red)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/yoga-series/yoga-530-14ikb/downloads/driver-list/component?name=BIOS%2FUEFI&id=5AC6A815-321D-440E-8833-B07A93E0428C)
 
 **DISCLAIMER:**  
-This OpenCore EFI works well on my "INTEL" Ideapad 530 Yoga. 
+This OpenCore EFI works well on my "INTEL" Lenovo 530 Yoga. 
 As you embark on your Hackintosh journey you are encouraged to **READ** the entire README and [Dortania](https://dortania.github.io/getting-started/) guides before you start to get an understanding of the install process. It will save many a message instructing you to read the manual. 
 
 ℹ️ Take also a look to the "Images" folder above!

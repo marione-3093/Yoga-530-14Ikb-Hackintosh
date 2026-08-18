@@ -430,7 +430,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 <summary><strong>✅ What's working</strong></summary>
 </br>
 
-- [x] Intel UHD 620 Graphics `including graphics acceleration with Metal` (2048MB of VRAM)
+- [x] Intel UHD 620 Graphics `including full graphics acceleration with Metal` (2048MB of VRAM)
 - [x] Battery management and conservation mode
 - [x] USB ports (type -A and -C)
 - [x] HDMI

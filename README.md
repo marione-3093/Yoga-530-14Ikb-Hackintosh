@@ -50,8 +50,9 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | Category  | Component                                            | Note                                                         |
 | --------- | ---------------------------------------------------- | ------------------------------------------------------------ |
 | Type      | 81EK                                                 |                                                              |
-| CPU       | Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz (up to 3.40GHz)            |                                                              |
-| GPU       | Intel UHD Graphics 620                               |                                                              |
+| CPU       | Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz (Turbo up to 3.40GHz)            |                                                              |
+| GPU 0     | Intel UHD Graphics 620 (Integrated)                             |                                                              |
+| GPU 1     | Nvidia GeForce MX130 (Discrete)                               |                                                              |
 | SSD       | Intel SSD 760p 256GB — M.2 2280 NVMe PCIe 3.0 x4     | If you need help, read this [Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)     |
 | Screen    | 14" FHD 1920x1080                                    | Multi touch and pen* support working (with "-vi2c-force-polling" in boot-args) |
 | Memory    | 16GB DDR4 2400Mhz                                    |                                                              |
@@ -68,7 +69,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 
 | Component     | Version |
 | ------------- | ------- |
-| macOS Sequoia / Tahoe  | 15.7.9 / 26.3.1  |
+| macOS Sequoia (https://i.pcmag.com/imagery/reviews/038S7yTOxUEqOgk2yPZgU1n-46.fit_scale.size_1028x578.v1748530146.png) / Tahoe (https://i.namu.wiki/i/wREBgsvVpnbF2vgzsGC7ZPTy7ZnFp7QRH5KCgDKroJUObm41_lZ7yIQS7AYkBNKWdCGK3PWz8T75zr1nxmdeeg.webp)  | 15.7.9 / 26.3.1  |
 | OpenCore      | v1.0.7  |
 
 </details>

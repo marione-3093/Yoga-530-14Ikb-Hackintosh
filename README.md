@@ -31,7 +31,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 
 - Plist editor [ProperTree](https://github.com/corpnewt/ProperTree) or [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
 - Handy-dandy ESP mounting script [MountEFI](https://github.com/corpnewt/MountEFI) if you don't want to use OpenCore Configurator and manually copy the EFI
-- Cross-platform GUI management tools for OpenCore [OCAT](https://github.com/ic005k/OCAuxiliaryTools) if you are on WINDOWS
+- Cross-platform GUI management tools for OpenCore [OCAT](https://github.com/ic005k/OCAuxiliaryTools), if you are on WINDOWS
 - Py script that uses acidanthera's macserial to generate SMBIOS [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 - The Swiss army knife of vanilla Hackintoshing [Hackintool](https://github.com/benbaker76/Hackintool)
 

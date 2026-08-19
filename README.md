@@ -56,7 +56,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | SSD       | Intel SSD 760p 256GB — M.2 2280 NVMe PCIe 3.0 x4     | ✅ Compatible with macOS ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‼️ If you plan to buy a new SSD, read this guide first [Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)     |
 | Screen    | 14" FHD 1920x1080                                    | Multi touch and pen* support working (with "-vi2c-force-polling" in boot-args) |
 | Memory    | 16GB DDR4 2400MHz                                    |                                                              |
-| Camera    | 720p Camera                                          | Vendor: Realtek                                                             |
+| Camera    | 720p Camera                                          | ℹ️ VENDOR: Realtek                                                             |
 | Audio     | Realtek® ALC236                                      | I suggest to use layout ID `13`. It works very well.         |
 | Touchpad  | Synaptics I2C Touchpad                               | Works with multi-gestures.                                   |
 | Wifi & BT | Intel Dual Band Wireless-AC 3165 + Bluetooth         | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control. Bluetooth already works with my modified kexts for Tahoe and controller info in NVRAM, so you don't have to do anything  |

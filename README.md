@@ -91,7 +91,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | -------- | ------------------------------- | ----------- |
 | Config   | Wireless LAN                    | `✅ Enabled`    |
 |          | Intel Virtual Technology        | `✅ Enabled`    |
-|          | Intel(R) Hyper-Threading Technology [about](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html)          | `✅ Enabled`    |
+|          | Intel(R) Hyper-Threading Technology [(about)](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html)          | `✅ Enabled`    |
 |          | BIOS Back Flash                 | `❌ Disabled`    |
 |          | HotKey Mode                     | `✅ Enabled`     |
 |          | Always On USB                   | `✅ Enabled`    |

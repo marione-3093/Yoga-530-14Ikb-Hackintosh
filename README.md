@@ -61,7 +61,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | Touchpad  | Synaptics I2C Touchpad                               | Works with multi-gestures.                                   |
 | Wifi & BT | Intel Dual Band Wireless-AC 3165 + Bluetooth         | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control. Bluetooth already works with my modified kexts for Tahoe and controller info in NVRAM, so you don't have to do anything  |
 | Input     | ⌨️ Cypress Integrated PS/2 Keyboard ‎ ‎ ‎        | I'm using [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys. The kext is in the folder but **you must install the YogaSMC app separately.** |
-| Fingerprint Reader | 🫆 Synaptics WBDI-SGX             | ❌ Not supported on macOS, because it uses the "Intel Software Guard Extensions Device" hardware technology that has to be disabled in the BIOS in order to install macOS|
+| Fingerprint Reader | 🫆 Synaptics WBDI-SGX             | ❌ Not supported on macOS, because it lacks of the "Intel Software Guard Extensions Device" hardware technology|
 | SD Card Reader | 💾 Genesys USB memory card reader          | 🆗 Works with macOS generic kext                                                              |
 
 </details>

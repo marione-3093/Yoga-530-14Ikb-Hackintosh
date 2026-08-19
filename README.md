@@ -292,7 +292,7 @@ After this is done, just reboot your machine. After it is up and running again, 
 <summary><strong>🌙 Setup hibernation and sleep</strong></summary>
 </br>
 
-[Script](https://www.tonymacx86.com/threads/release-sleeponlowbattery-solb.264785) that performs auto sleep/hibernate at low battery.
+[Script](https://www.tonymacx86.com/threads/release-sleeponlowbattery-solb.264785) that performs auto sleep/hibernate at low battery. Otherwise, if you don't want to use the script you can follow this [guide](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations)
 
 1. Open terminal
 2. Enter commands below one by one

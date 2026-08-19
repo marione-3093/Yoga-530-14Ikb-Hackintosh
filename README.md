@@ -493,7 +493,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 </br>
 
 - [ ] ⌚️ Apple Watch Unlock
-- [ ] 🌀 Fan reading and control (with "YogaSMC" or "[Macs Fan Control]"(https://macs-fan-control.macupdate.com/))
+- [ ] 🌀 Fan reading and control (with "YogaSMC" or ["Macs Fan Control"](https://macs-fan-control.macupdate.com/))
 
 </details>
 

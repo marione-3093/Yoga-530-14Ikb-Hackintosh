@@ -406,7 +406,6 @@ Successfully added Microphone approval status for com.hnc.Discord
 <details>  
 <summary><strong>⚡️ Advanced energy management</strong></summary>
 
-
 😃 You can copy my preset and paste them into Terminal (note: it will ask for your admin user password because of "sudo"):
 
 ```bash
@@ -428,6 +427,8 @@ sudo pmset -a ttyskeepawake 0
 sudo pmset -a womp 0
 
 sudo pmset -a networkoversleep 0
+
+```
 
 or just choose yourself what to do: 
 

@@ -287,6 +287,7 @@ After this is done, just reboot your machine. After it is up and running again, 
 | :--- | :---- | :--------- | :--------- | :------------------- |
 | Misc | Boot  | ShowPicker | `False`    | Skip bootloader page |
 | UEFI | Audio | PlayChime  | `Enabled`  | Play chime on boot   |
+| NVRAM | Add |	boot-args | `-v` |	Enable verbose boot mode (add it at the beginning) |
 
 </details>
 

@@ -406,7 +406,7 @@ Successfully added Microphone approval status for com.hnc.Discord
 <details>  
 <summary><strong>⚡️ Advanced energy management</strong></summary>
 
-😃 You can copy my preset and paste them into Terminal (note: it will ask for your admin user password because of "sudo"):
+😃 You can copy my preset and paste them into Terminal (NOTE: it will ask for your admin user password because of "sudo"):
 
 ```bash
 

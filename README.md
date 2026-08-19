@@ -53,7 +53,7 @@ You can also find a wealth of knowledge on [Reddit](https://www.reddit.com/r/hac
 | CPU       | Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz (Turbo up to 3.40GHz)            |                                                              |
 | GPU 0     | Intel UHD Graphics 620 (Integrated)                             |                                                              |
 | GPU 1     | Nvidia GeForce MX130 (Discrete)                      | macOS doesn't support Optimus technology, so i disabled it with SSDT in order to save power      |
-| SSD       | Intel SSD 760p 256GB — M.2 2280 NVMe PCIe 3.0 x4     | ✅ Compatible ‼️ If you plan to buy a new SSD, read this guide first [Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)     |
+| SSD       | Intel SSD 760p 256GB — M.2 2280 NVMe PCIe 3.0 x4     | ✅ Compatible                                 ‼️ If you plan to buy a new SSD, read this guide first [Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)     |
 | Screen    | 14" FHD 1920x1080                                    | Multi touch and pen* support working (with "-vi2c-force-polling" in boot-args) |
 | Memory    | 16GB DDR4 2400Mhz                                    |                                                              |
 | Camera    | 720p Camera                                          |                                                              |

@@ -199,6 +199,20 @@ I mapped and enabled all the USB ports using (https://github.com/usbtoolbox/tool
 
 </details> 
 
+<details>  
+<summary><strong>🛡️ Block Apple updates</strong></summary>
+</br>
+	
+| Menu |       |            | Setting    | What does it do?     |
+| :--- | :---- | :--------- | :--------- | :------------------- |
+| Misc | Security | BlacklistAppleUpdate | `Enabled` | Blocks Apple updates |
+
+❗️Note: This setting is **already enabled** in the EFI to prevent issues caused by Apple updates after patching Wi-Fi and audio.
+
+![blocked](./Images/blocked_updates.png)
+
+</details> 
+
 ## 🛠️ Other tweaks (optional)
 
 <details>  
@@ -292,20 +306,6 @@ After this is done, just reboot your machine. After it is up and running again, 
 > 🗒️ **Note:** `-no_compat_check` is already included in `boot-args` to bypass the compatibility check and allow macOS Tahoe to install on unsupported SMBIOS.
 
 </details>
-
-<details>  
-<summary><strong>🛡️ Block Apple updates</strong></summary>
-</br>
-	
-| Menu |       |            | Setting    | What does it do?     |
-| :--- | :---- | :--------- | :--------- | :------------------- |
-| Misc | Security | BlacklistAppleUpdate | `Enabled` | Blocks Apple updates to prevent issues after patching Wi-Fi and audio |
-
-❗️Note: This setting is **already enabled** in the EFI to prevent issues caused by Apple updates after patching Wi-Fi and audio.
-
-![blocked](./Images/blocked_updates.png)
-
-</details> 
 	
 <details>  
 <summary><strong>🌙 Setup hibernation and sleep</strong></summary>
